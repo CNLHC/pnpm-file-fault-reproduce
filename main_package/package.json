@@ -1,0 +1,16 @@
+{
+  "name": "main_package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg_no_postinstall": "file:../pkg_no_postinstall",
+    "pkg_with_postinstall": "file:../pkg_with_postinstall"
+  }
+}

@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      pkg_no_postinstall:
+        specifier: file:../pkg_no_postinstall
+        version: file:../pkg_no_postinstall
+      pkg_with_postinstall:
+        specifier: file:../pkg_with_postinstall
+        version: file:../pkg_with_postinstall
+
+packages:
+
+  pkg_no_postinstall@file:../pkg_no_postinstall:
+    resolution: {directory: ../pkg_no_postinstall, type: directory}
+
+  pkg_with_postinstall@file:../pkg_with_postinstall:
+    resolution: {directory: ../pkg_with_postinstall, type: directory}
+
+snapshots:
+
+  pkg_no_postinstall@file:../pkg_no_postinstall: {}
+
+  pkg_with_postinstall@file:../pkg_with_postinstall: {}
